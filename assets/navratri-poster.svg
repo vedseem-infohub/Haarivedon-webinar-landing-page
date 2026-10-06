@@ -1,186 +1,166 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1400" role="img" aria-label="Navratri Special poster design">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1400" role="img" aria-label="Navratri Special poster">
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#7a0814"/>
-      <stop offset="0.5" stop-color="#9e0d1d"/>
-      <stop offset="1" stop-color="#56070d"/>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#6b000d"/>
+      <stop offset="0.5" stop-color="#7b0413"/>
+      <stop offset="1" stop-color="#4f0009"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" x2="1" y1="0" y2="0">
-      <stop offset="0" stop-color="#f4f2f1"/>
-      <stop offset="1" stop-color="#eceaea"/>
+      <stop offset="0" stop-color="#f4f3f3"/>
+      <stop offset="1" stop-color="#ebebeb"/>
     </linearGradient>
-    <linearGradient id="sareeA" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#f8b3b5"/>
-      <stop offset="0.45" stop-color="#d95d66"/>
-      <stop offset="1" stop-color="#bc1f3a"/>
+    <linearGradient id="dress1" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f6b7bc"/>
+      <stop offset="0.55" stop-color="#d75560"/>
+      <stop offset="1" stop-color="#b40d2e"/>
     </linearGradient>
-    <linearGradient id="sareeB" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#2a7d7e"/>
-      <stop offset="0.5" stop-color="#1f6c72"/>
-      <stop offset="1" stop-color="#0f4e4e"/>
+    <linearGradient id="dress2" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#3ba8ad"/>
+      <stop offset="0.45" stop-color="#2a7e7f"/>
+      <stop offset="1" stop-color="#0d4749"/>
     </linearGradient>
-    <radialGradient id="skin" cx="50%" cy="35%" r="70%">
-      <stop offset="0" stop-color="#f7d7bd"/>
-      <stop offset="1" stop-color="#d9a17a"/>
+    <radialGradient id="skin" cx="50%" cy="35%" r="65%">
+      <stop offset="0" stop-color="#f3d9c7"/>
+      <stop offset="1" stop-color="#d7a77a"/>
     </radialGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#330307" flood-opacity="0.16"/>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#30060a" flood-opacity="0.18"/>
     </filter>
   </defs>
 
   <rect width="1200" height="1400" fill="url(#bg)"/>
 
-  <g opacity="0.22" stroke="#f6d4d8" stroke-width="4" fill="none">
-    <path d="M130 150 C230 40, 380 50, 475 165 S700 200, 875 110"/>
-    <path d="M100 360 C205 280, 360 290, 455 380 S710 500, 1015 420"/>
-    <path d="M90 720 C200 630, 370 640, 455 760 S710 930, 1035 840"/>
-    <path d="M100 1100 C195 1010, 350 1015, 480 1105 S760 1225, 1080 1130"/>
-    <path d="M230 0 C180 120, 210 245, 295 330 S430 520, 395 670"/>
-    <path d="M975 20 C1055 125, 1030 280, 955 375 S840 575, 860 730"/>
+  <g opacity="0.2" stroke="#f7d5d5" stroke-width="3" fill="none">
+    <path d="M-30 180 C80 100, 180 120, 270 210 S470 290, 640 200 S900 90, 1240 180"/>
+    <path d="M-20 430 C120 320, 220 310, 330 400 S610 560, 1240 480"/>
+    <path d="M-40 760 C90 650, 220 660, 360 770 S610 950, 1240 850"/>
+    <path d="M-25 1080 C120 960, 220 960, 340 1060 S630 1200, 1230 1130"/>
+    <path d="M180 0 C120 120, 150 230, 250 310 S430 510, 410 700"/>
+    <path d="M1010 0 C1090 130, 1040 250, 960 340 S820 560, 875 720"/>
   </g>
 
-  <g opacity="0.95">
-    <path d="M0 0 C210 260, 210 380, 0 580 L0 0 Z" fill="#7d0d18" opacity="0.18"/>
-    <path d="M1200 0 C990 230, 1010 400, 1200 620 L1200 0 Z" fill="#7d0d18" opacity="0.18"/>
+  <g filter="url(#softShadow)">
+    <path d="M185 58 H1015 C1080 58, 1118 96, 1118 156 V444 C1118 522, 1096 592, 1030 638 H170 C96 598, 80 531, 80 455 V156 C80 95, 119 58, 185 58 Z" fill="url(#panel)"/>
   </g>
 
-  <g filter="url(#shadow)">
-    <rect x="150" y="60" width="900" height="620" rx="110" fill="url(#panel)"/>
-  </g>
-
-  <g transform="translate(0 10)">
-    <g fill="none" stroke="#6b0010" stroke-width="3" stroke-linecap="round" opacity="0.88">
-      <path d="M430 250 C440 190, 505 128, 600 128 C680 128, 750 165, 780 228"/>
-      <path d="M408 260 C388 200, 355 182, 288 185 C242 188, 212 206, 192 228"/>
-      <path d="M760 260 C782 204, 820 180, 884 182 C930 184, 958 206, 984 232"/>
-      <path d="M600 125 C606 80, 622 58, 600 30 C578 60, 594 78, 600 125"/>
-      <path d="M551 120 C600 100, 650 100, 699 120"/>
-      <path d="M492 208 C520 192, 545 187, 600 187 C655 187, 678 192, 708 208"/>
-      <path d="M575 198 C590 178, 610 168, 600 146 C590 168, 610 178, 625 198"/>
+  <g transform="translate(0,8)">
+    <g fill="none" stroke="#7e0d17" stroke-width="3" stroke-linecap="round" opacity="0.9">
+      <path d="M440 188 C438 120, 495 90, 590 90 C670 90, 740 120, 780 182"/>
+      <path d="M410 220 C392 165, 342 150, 285 156 C238 161, 202 183, 180 205"/>
+      <path d="M770 218 C792 163, 840 148, 895 152 C948 156, 984 182, 1015 208"/>
+      <path d="M590 92 C596 50, 610 26, 600 4 C586 34, 594 58, 590 92"/>
+      <path d="M540 96 C580 77, 650 78, 690 96"/>
+      <path d="M480 179 C513 161, 548 155, 600 155 C652 155, 688 162, 720 179"/>
+      <path d="M550 174 C560 154, 582 146, 600 146 C620 146, 640 154, 650 174"/>
     </g>
-
-    <g fill="#6b0010">
-      <circle cx="600" cy="164" r="12"/>
-      <circle cx="520" cy="190" r="7"/>
-      <circle cx="680" cy="190" r="7"/>
-      <path d="M550 220 C565 230, 577 234, 600 234 C623 234, 635 230, 650 220"/>
+    <g fill="#7e0d17">
+      <circle cx="600" cy="146" r="10"/>
+      <circle cx="520" cy="180" r="7"/>
+      <circle cx="680" cy="180" r="7"/>
+      <path d="M548 226 C568 236, 584 240, 600 240 C616 240, 632 236, 652 226"/>
     </g>
-
-    <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle" fill="#6b0010">
-      <text x="600" y="355" font-size="200" font-weight="700" font-style="italic">Navratri</text>
-      <text x="600" y="470" font-size="92" font-weight="700">Special</text>
-    </g>
-
-    <g>
-      <rect x="345" y="520" width="510" height="95" rx="18" fill="#e8e2db" stroke="#6b0010" stroke-width="4"/>
-      <text x="600" y="580" text-anchor="middle" font-size="38" font-weight="800" letter-spacing="4" fill="#6b0010" font-family="Arial, Helvetica, sans-serif">LIVE MASTERCLASS</text>
+    <g font-family="Georgia, 'Times New Roman', serif" text-anchor="middle" fill="#6c0614">
+      <text x="600" y="340" font-size="182" font-weight="700" font-style="italic">Navratri</text>
+      <text x="600" y="442" font-size="82" font-weight="700">Special</text>
     </g>
   </g>
 
-  <g transform="translate(280 540)">
-    <ellipse cx="260" cy="120" rx="143" ry="146" fill="url(#skin)"/>
-    <path d="M137 115 C147 30, 210 0, 270 25 C335 55, 364 110, 371 155 C340 142, 316 134, 290 129 C272 125, 160 123, 137 115 Z" fill="#1b1b1b"/>
-    <path d="M130 145 C150 104, 176 88, 200 80 C185 60, 175 35, 195 12 C222 20, 255 30, 278 48 C296 55, 325 62, 352 82 C360 100, 368 126, 364 154 C350 145, 338 141, 324 138 C316 115, 302 101, 281 95 C253 87, 214 90, 188 108 C166 122, 149 138, 130 145 Z" fill="#1a1a1a" opacity="0.96"/>
-
-    <g fill="#f8d7bb">
-      <ellipse cx="208" cy="120" rx="12" ry="15"/>
-      <ellipse cx="315" cy="120" rx="12" ry="15"/>
-      <path d="M215 170 C238 182, 284 182, 305 170" fill="none" stroke="#6b2b2b" stroke-width="7" stroke-linecap="round"/>
-    </g>
-
-    <g fill="#1d1d1d">
-      <circle cx="205" cy="120" r="8"/>
-      <circle cx="315" cy="120" r="8"/>
-      <path d="M246 111 C256 103, 268 103, 278 111" fill="none" stroke="#371c1a" stroke-width="4" stroke-linecap="round"/>
-    </g>
-
-    <path d="M220 168 C238 180, 272 180, 295 168" fill="none" stroke="#5a2a2b" stroke-width="7" stroke-linecap="round"/>
-
-    <g fill="#d1ba68">
-      <circle cx="190" cy="191" r="8"/>
-      <circle cx="338" cy="191" r="8"/>
-      <circle cx="145" cy="336" r="9"/>
-      <circle cx="388" cy="336" r="9"/>
-    </g>
-
-    <path d="M75 254 L200 264 C227 200, 270 175, 335 191 L370 250 L370 540 L110 540 L90 262 C88 258, 77 258, 75 254 Z" fill="url(#sareeA)"/>
-    <path d="M155 268 L305 268 L320 545 L140 545 Z" fill="url(#sareeB)" opacity="0.97"/>
-    <path d="M90 308 C180 280, 250 285, 380 312 L341 545 L150 545 L92 308 Z" fill="url(#sareeA)" opacity="0.93"/>
-
-    <g stroke="#d2b861" stroke-width="8" fill="none" stroke-linecap="round">
-      <path d="M140 322 C190 272, 227 274, 290 314"/>
-      <path d="M130 374 C200 350, 247 352, 322 392"/>
-      <path d="M165 430 C203 415, 244 416, 287 435"/>
-      <path d="M117 548 L159 615"/>
-      <path d="M338 545 L286 618"/>
-    </g>
-
-    <g fill="#e8c372">
-      <circle cx="175" cy="518" r="16"/>
-      <circle cx="280" cy="518" r="16"/>
-      <circle cx="160" cy="595" r="18"/>
-      <circle cx="298" cy="595" r="18"/>
-    </g>
-
-    <g fill="none" stroke="#5a2d34" stroke-width="8" stroke-linecap="round">
-      <path d="M198 246 L170 330 L208 312 L236 228"/>
-      <path d="M302 246 L334 332 L298 312 L270 226"/>
-    </g>
-
-    <path d="M233 238 C255 252, 280 250, 297 235 C316 220, 338 192, 342 170 C356 168, 374 280, 360 328 C351 363, 333 388, 294 400 C258 412, 214 408, 185 387 C158 367, 149 331, 157 304 C166 274, 198 246, 233 238 Z" fill="#f1d6bf" opacity="0.9"/>
-
-    <g fill="#d7995d">
-      <path d="M157 249 C177 228, 206 223, 220 235 C207 242, 191 251, 177 270 C168 282, 160 294, 154 310 C134 292, 140 273, 157 249 Z"/>
-      <path d="M344 246 C328 222, 298 220, 279 235 C294 245, 309 255, 323 272 C334 285, 343 298, 351 315 C364 295, 365 270, 344 246 Z"/>
-    </g>
-
-    <g fill="#e6b17d">
-      <path d="M190 440 C224 466, 242 474, 270 474 C297 474, 330 466, 354 442 L365 510 C335 534, 285 545, 245 545 C206 545, 165 534, 134 510 Z"/>
-    </g>
-
-    <g fill="#1a1a1a" opacity="0.92">
-      <circle cx="214" cy="520" r="26"/>
-      <circle cx="282" cy="520" r="26"/>
-      <path d="M210 518 C228 538, 265 538, 284 518" fill="none" stroke="#1a1a1a" stroke-width="11" stroke-linecap="round"/>
-    </g>
-
-    <g fill="#f6d690">
-      <circle cx="140" cy="330" r="13"/>
-      <circle cx="353" cy="330" r="13"/>
-      <circle cx="149" cy="626" r="12"/>
-      <circle cx="344" cy="626" r="12"/>
-    </g>
+  <g transform="translate(0,0)">
+    <rect x="345" y="500" width="510" height="80" rx="18" fill="#e9e5e4" stroke="#6c0614" stroke-width="4"/>
+    <text x="600" y="554" text-anchor="middle" font-size="34" font-weight="800" letter-spacing="4" fill="#6c0614" font-family="Arial, Helvetica, sans-serif">LIVE MASTERCLASS</text>
   </g>
 
-  <g transform="translate(755 655)">
-    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#302d2d">LIVE</text>
-    <text x="0" y="72" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" fill="#302d2d">MASTERCLASS</text>
-    <g transform="translate(0 118)" fill="#6b0010" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700">
-      <g transform="translate(0 0)"><circle cx="-16" cy="-14" r="10" fill="#6b0010"/><text x="16" y="6">9 Din</text></g>
-      <g transform="translate(0 86)"><circle cx="-16" cy="-14" r="10" fill="#6b0010"/><text x="16" y="6">9 Graha</text></g>
-      <g transform="translate(0 172)"><circle cx="-16" cy="-14" r="10" fill="#6b0010"/><text x="16" y="6">9 Maha Upay</text></g>
-    </g>
-  </g>
-
-  <g transform="translate(260 1190)">
-    <rect x="0" y="0" width="680" height="118" rx="28" fill="#0f0f0f" opacity="0.9"/>
-    <text x="340" y="70" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" fill="#f1ece7" letter-spacing="2">JOIN NOW</text>
-  </g>
-
-  <g transform="translate(80 1245)">
-    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="900" fill="#f5f1ef" letter-spacing="2">2HRS WEBINAR</text>
-    <text x="0" y="52" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#f5f1ef" opacity="0.9">www.haarivedon.com</text>
-  </g>
-
-  <g transform="translate(810 1245)">
-    <rect x="0" y="0" width="260" height="92" rx="22" fill="#0b0b0b" opacity="0.95"/>
-    <g transform="translate(34 14)">
-      <rect x="0" y="0" width="54" height="54" rx="8" fill="#f4efe8"/>
-      <g stroke="#5c0010" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <rect x="11" y="12" width="32" height="32" rx="2"/>
-        <path d="M16 18H29M16 25H29M16 32H24"/>
+  <g transform="translate(0,0)">
+    <g transform="translate(240,520)">
+      <ellipse cx="250" cy="100" rx="150" ry="145" fill="url(#skin)"/>
+      <path d="M120 110 C132 35, 209 0, 275 20 C345 42, 382 110, 390 165 C340 150, 294 142, 246 138 C194 135, 152 131, 120 110 Z" fill="#1e1d1d"/>
+      <path d="M110 118 C126 88, 150 72, 176 64 C168 51, 168 30, 186 12 C225 20, 269 28, 296 42 C321 54, 350 64, 370 84 C380 108, 386 138, 382 159 C363 146, 345 138, 330 130 C323 108, 309 98, 286 92 C256 84, 214 88, 184 104 C160 116, 138 122, 110 118 Z" fill="#181818"/>
+      <g fill="#f7d7bb">
+        <ellipse cx="202" cy="116" rx="12" ry="15"/>
+        <ellipse cx="307" cy="116" rx="12" ry="15"/>
+        <path d="M232 165 C243 176, 270 176, 282 165" fill="none" stroke="#7a3d2d" stroke-width="7" stroke-linecap="round"/>
+      </g>
+      <g fill="#1e1d1d">
+        <circle cx="201" cy="116" r="7"/>
+        <circle cx="307" cy="116" r="7"/>
+        <path d="M238 108 C255 97, 269 98, 278 109" fill="none" stroke="#3d1f1a" stroke-width="4" stroke-linecap="round"/>
+      </g>
+      <path d="M220 170 C244 180, 270 180, 292 170" fill="none" stroke="#5a2d30" stroke-width="7" stroke-linecap="round"/>
+      <g fill="#d7b95d">
+        <circle cx="182" cy="180" r="8"/>
+        <circle cx="333" cy="180" r="8"/>
+        <circle cx="140" cy="330" r="8"/>
+        <circle cx="376" cy="330" r="8"/>
+      </g>
+      <path d="M75 260 L188 270 C215 214, 260 188, 330 196 L376 260 L375 560 L110 560 L90 270 C88 266, 77 260, 75 260 Z" fill="url(#dress1)"/>
+      <path d="M154 270 L304 270 L316 560 L145 560 Z" fill="url(#dress2)" opacity="0.96"/>
+      <path d="M90 328 C180 292, 230 295, 382 324 L344 560 L142 560 L90 328 Z" fill="url(#dress1)" opacity="0.9"/>
+      <g stroke="#d5b862" stroke-width="8" fill="none" stroke-linecap="round">
+        <path d="M135 332 C198 282, 235 285, 292 316"/>
+        <path d="M128 390 C196 365, 250 365, 325 398"/>
+        <path d="M160 448 C200 434, 242 432, 286 447"/>
+        <path d="M118 560 L163 620"/>
+        <path d="M337 560 L290 620"/>
+      </g>
+      <g fill="#edc86d">
+        <circle cx="176" cy="518" r="14"/>
+        <circle cx="284" cy="518" r="14"/>
+        <circle cx="160" cy="595" r="16"/>
+        <circle cx="298" cy="595" r="16"/>
+      </g>
+      <g fill="none" stroke="#5c2e35" stroke-width="8" stroke-linecap="round">
+        <path d="M200 240 L175 326 L207 308 L234 232"/>
+        <path d="M299 240 L324 328 L292 309 L266 232"/>
+      </g>
+      <path d="M238 232 C257 245, 283 246, 299 231 C317 218, 338 185, 340 165 C354 160, 372 265, 363 320 C352 372, 334 394, 294 410 C260 424, 214 421, 186 398 C160 376, 149 336, 158 302 C166 278, 198 241, 238 232 Z" fill="#f1cfba" opacity="0.95"/>
+      <g fill="#e2aa7a">
+        <path d="M150 245 C172 224, 205 220, 218 232 C206 240, 190 252, 175 272 C164 286, 155 299, 150 312 C128 291, 135 266, 150 245 Z"/>
+        <path d="M350 245 C336 222, 307 220, 287 233 C302 243, 316 255, 330 271 C340 286, 349 298, 356 312 C370 288, 370 265, 350 245 Z"/>
+      </g>
+      <g fill="#d7a965">
+        <path d="M184 432 C226 460, 238 468, 269 468 C302 468, 333 462, 360 436 L370 500 C338 528, 286 540, 246 540 C205 540, 165 529, 134 500 Z"/>
+      </g>
+      <g fill="#1b1b1b" opacity="0.92">
+        <circle cx="212" cy="520" r="25"/>
+        <circle cx="282" cy="520" r="25"/>
+        <path d="M214 512 C230 533, 269 533, 286 512" fill="none" stroke="#1b1b1b" stroke-width="11" stroke-linecap="round"/>
+      </g>
+      <g fill="#f4d364">
+        <circle cx="140" cy="330" r="12"/>
+        <circle cx="355" cy="330" r="12"/>
       </g>
     </g>
-    <text x="110" y="42" font-family="Arial, Helvetica, sans-serif" font-size="52" font-weight="900" fill="#f6f1ef">10TH OCT 2026</text>
+
+    <g transform="translate(740,620)">
+      <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800" fill="#2d1b1c">LIVE</text>
+      <text x="0" y="66" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="800" fill="#2d1b1c">MASTERCLASS</text>
+      <g transform="translate(0,108)" fill="#6d0616" font-family="Georgia, 'Times New Roman', serif" font-size="50" font-weight="700">
+        <g transform="translate(0 0)"><circle cx="-16" cy="-12" r="8" fill="#6d0616"/><text x="10" y="8">9 Din</text></g>
+        <g transform="translate(0 72)"><circle cx="-16" cy="-12" r="8" fill="#6d0616"/><text x="10" y="8">9 Graha</text></g>
+        <g transform="translate(0 144)"><circle cx="-16" cy="-12" r="8" fill="#6d0616"/><text x="10" y="8">9 Maha Upay</text></g>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(260,1190)">
+    <rect x="0" y="0" width="680" height="110" rx="28" fill="#0f0f0f" opacity="0.95"/>
+    <text x="340" y="67" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="800" fill="#f2eeee" letter-spacing="2">JOIN NOW</text>
+  </g>
+
+  <g transform="translate(80,1255)">
+    <text x="0" y="0" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="900" fill="#f5f2ef" letter-spacing="2">2HRS WEBINAR</text>
+    <text x="0" y="46" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#f5f2ef" opacity="0.9">www.haarivedon.com</text>
+  </g>
+
+  <g transform="translate(815,1245)">
+    <rect x="0" y="0" width="285" height="90" rx="22" fill="#0c0c0c" opacity="0.92"/>
+    <g transform="translate(30 15)">
+      <rect x="0" y="0" width="46" height="46" rx="8" fill="#f4f0ed"/>
+      <g stroke="#5d0915" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="10" y="10" width="26" height="26" rx="2"/>
+        <path d="M14 16H22M14 22H22M14 28H19"/>
+      </g>
+    </g>
+    <text x="110" y="52" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="900" fill="#f7f3f1">10TH OCT 2026</text>
   </g>
 </svg>
