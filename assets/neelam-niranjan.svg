@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Neelam Niranjan portrait illustration">
+  <defs>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4d2bc"/>
+      <stop offset="1" stop-color="#d9a98f"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="#a6041a"/>
+  <g opacity="0.18" stroke="#f9d7d7" stroke-width="4" fill="none">
+    <path d="M40 220 C115 100, 240 100, 300 200 S440 320, 560 260 S760 90, 860 210"/>
+    <path d="M35 820 C125 730, 250 720, 330 800 S540 930, 680 870 S820 710, 865 800"/>
+  </g>
+  <g transform="translate(140 70)">
+    <path d="M216 180 C250 90, 330 40, 420 45 C510 52, 582 106, 604 188 C622 255, 612 332, 585 382 L515 356 L470 410 L400 410 L350 360 L292 380 L260 312 C240 278, 220 228, 216 180 Z" fill="#1a2323"/>
+    <ellipse cx="400" cy="305" rx="155" ry="195" fill="url(#skin)"/>
+    <path d="M285 310 C290 240, 340 190, 405 186 C467 182, 528 224, 535 314 C540 386, 505 434, 445 450 L360 448 C312 436, 282 388, 285 310 Z" fill="url(#skin)"/>
+    <path d="M282 298 C275 240, 310 165, 390 145 C458 128, 522 171, 535 238 C548 308, 528 318, 508 318 C470 318, 444 285, 412 285 C372 285, 352 330, 302 330 Z" fill="#1b1a1a"/>
+    <path d="M320 100 C360 32, 470 20, 530 90 C550 110, 566 120, 580 150 C490 120, 420 165, 382 208 C340 195, 298 151, 320 100 Z" fill="#1d1817"/>
+    <circle cx="350" cy="300" r="12" fill="#111"/>
+    <circle cx="465" cy="300" r="12" fill="#111"/>
+    <path d="M360 360 Q410 390 460 360" fill="none" stroke="#9c4b3d" stroke-width="8" stroke-linecap="round"/>
+    <path d="M330 270 L305 250" stroke="#8b5a4d" stroke-width="6" stroke-linecap="round"/>
+    <path d="M510 270 L535 250" stroke="#8b5a4d" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="406" cy="392" r="14" fill="#d17a6e" opacity="0.8"/>
+    <g fill="#f5b45d">
+      <circle cx="260" cy="260" r="26"/>
+      <circle cx="550" cy="260" r="26"/>
+    </g>
+    <path d="M205 430 C245 520, 320 560, 374 560 C444 560, 530 522, 570 430 L615 570 C550 660, 472 700, 375 710 C290 700, 214 660, 160 570 Z" fill="#de5b85"/>
+    <path d="M205 430 C180 510, 175 620, 210 728 L320 710 C290 590, 280 500, 295 430 Z" fill="#0b7b6f"/>
+    <path d="M580 430 C605 520, 608 620, 575 730 L470 710 C505 590, 515 500, 510 430 Z" fill="#0b7b6f"/>
+    <path d="M280 440 L210 760 L310 760 L360 480 Z" fill="#ff9d8f"/>
+    <path d="M520 440 L590 760 L490 760 L440 480 Z" fill="#ff9d8f"/>
+    <path d="M300 760 C350 800, 400 800, 450 760 L470 820 C430 860, 335 860, 285 820 Z" fill="#e89d32"/>
+    <g fill="#e2b95f">
+      <path d="M200 680 C140 720, 110 820, 135 900 C175 885, 220 835, 220 790 Z"/>
+      <path d="M600 680 C660 720, 690 820, 665 900 C625 885, 580 835, 580 790 Z"/>
+    </g>
+    <g fill="#f0c060">
+      <circle cx="180" cy="760" r="28"/>
+      <circle cx="620" cy="760" r="28"/>
+      <circle cx="170" cy="840" r="22"/>
+      <circle cx="630" cy="840" r="22"/>
+      <circle cx="145" cy="920" r="18"/>
+      <circle cx="655" cy="920" r="18"/>
+    </g>
+    <path d="M280 720 L380 760 L412 720 L468 760 L520 720" fill="none" stroke="#f3d062" stroke-width="12" stroke-linecap="round"/>
+  </g>
+</svg>
