@@ -54,7 +54,7 @@
       name: C.businessName || "HAARIVEDON",
       description: "Navratri Astrology Masterclass – 10 Oct 2026, 6 PM IST",
       image: C.logo ? new URL(C.logo, location.href).href : undefined,
-      notes: { webinar: "Navratri Masterclass 10-Oct-2026", mentor: "Neelam Niranjan" },
+      notes: { webinar: "Navratri Masterclass 10-Oct-2026", mentor: "Neelam Ajay singh" },
       theme: { color: "#047857" },
       handler: function (res) {
         goThankYou({ razorpay_payment_id: res.razorpay_payment_id, status: "success" });
@@ -85,7 +85,7 @@
 
   if (C.mentorPhoto) {
     document.querySelectorAll("[data-mentor-photo]").forEach(function (el) {
-      el.innerHTML = '<img src="' + C.mentorPhoto + '" alt="Neelam Niranjan">';
+      el.innerHTML = '<img src="' + C.mentorPhoto + '" alt="Neelam Ajay singh">';
     });
   }
 

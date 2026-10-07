@@ -1,6 +1,6 @@
 # HAARIVEDON – Navratri Astrology Masterclass Landing Page
 
-Static landing page (no build step) for the live webinar by Astrologer Neelam Niranjan on 10 October 2026, 6:00 PM IST.
+Static landing page (no build step) for the live webinar by Astrologer Neelam Ajay singh on 10 October 2026, 6:00 PM IST.
 
 ## Files
 - `index.html` – landing page
