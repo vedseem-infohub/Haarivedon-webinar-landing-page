@@ -34,5 +34,10 @@ window.HAARIVEDON_CONFIG = {
 
   // 7) If true, thank-you.html shows the WhatsApp link only when the gateway
   //    redirect includes a payment id (razorpay_payment_id / payment_id).
-  requirePaymentConfirmation: true
+  requirePaymentConfirmation: true,
+
+  // 8) Google Sheets Web App URL (Saves Name, Mobile & Email before payment)
+  //    Follow the 2-minute guide in GOOGLE_SHEETS_SETUP.md to get your URL.
+  //    Paste your deployed Web App URL here:
+  googleSheetScriptUrl: "https://script.google.com/macros/s/AKfycbyaHtSGaUOtp1WAl338MMqGDRx2uaSBcRF0iSGjfmNjG48zlz2Va5lU4aVYcdcvHYeO/exec"
 };
