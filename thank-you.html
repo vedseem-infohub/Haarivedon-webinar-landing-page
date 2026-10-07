@@ -1,126 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="noindex, nofollow">
-<link rel="icon" type="image/png" href="assets/logo.png">
-<title>Registration Confirmed – HAARIVEDON Navratri Masterclass</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
-<script src="config.js"></script>
-<style>
-  body{padding-bottom:0;min-height:100vh;background:radial-gradient(900px 500px at 50% 0%,rgba(16,185,129,.18),transparent 60%),#f6fcf9}
-  .ty{max-width:680px;margin:50px auto;padding:0 4%}
-  .ty-card{background:#fff;border:1px solid var(--line);border-radius:28px;box-shadow:var(--shadow-lg);overflow:hidden;text-align:center}
-  .ty-head{background:var(--grad);color:#fff;padding:40px 30px 34px}
-  .tick{width:84px;height:84px;margin:0 auto 16px;border-radius:50%;background:#fff;color:var(--g600);display:grid;place-items:center;box-shadow:0 10px 30px rgba(0,0,0,.15)}
-  .tick svg{width:46px;height:46px}
-  .ty-head h1{font-size:clamp(1.6rem,4vw,2.2rem)}
-  .ty-head p{opacity:.92;margin-top:8px}
-  .ty-body{padding:32px}
-  .important{background:#fffbeb;border:2px dashed #fbbf24;border-radius:18px;padding:22px;margin-bottom:24px}
-  .important b{font-family:'Poppins';font-size:1.1rem}
-  .important p{color:var(--muted);margin:6px 0 18px}
-  .btn-wa{background:#16a34a;color:#fff;box-shadow:0 10px 24px rgba(22,163,74,.4);width:100%;font-size:1.05rem;padding:16px 24px}
-  .btn-wa:hover{background:#15803d}
-  .ty-note{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:14px;padding:12px 16px;color:#14532d;font-size:.9rem;margin-bottom:18px;text-align:left}
-  .ty-note p+p{margin-top:4px}
-  .btn-wa svg{width:24px;height:24px}
-  .details{display:grid;grid-template-columns:1fr 1fr;gap:12px;text-align:left;margin-bottom:22px}
-  .details .info b{font-size:.92rem}
-  .muted{color:var(--muted);font-size:.92rem}
-  .muted a{color:var(--g700);font-weight:600}
-  .state{display:none}.state.show{display:block}
-  @media(max-width:560px){.details{grid-template-columns:1fr}.ty-body{padding:22px}}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <title>Registration Confirmed – HAARIVEDON Navratri Masterclass</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js"></script>
+  <style>
+    body {
+      padding-bottom: 0;
+      min-height: 100vh;
+      background: radial-gradient(900px 500px at 50% 0%, rgba(16, 185, 129, .18), transparent 60%), #f6fcf9
+    }
+
+    .ty {
+      max-width: 680px;
+      margin: 50px auto;
+      padding: 0 4%
+    }
+
+    .ty-card {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+      text-align: center
+    }
+
+    .ty-head {
+      background: var(--grad);
+      color: #fff;
+      padding: 40px 30px 34px
+    }
+
+    .tick {
+      width: 84px;
+      height: 84px;
+      margin: 0 auto 16px;
+      border-radius: 50%;
+      background: #fff;
+      color: var(--g600);
+      display: grid;
+      place-items: center;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, .15)
+    }
+
+    .tick svg {
+      width: 46px;
+      height: 46px
+    }
+
+    .ty-head h1 {
+      font-size: clamp(1.6rem, 4vw, 2.2rem)
+    }
+
+    .ty-head p {
+      opacity: .92;
+      margin-top: 8px
+    }
+
+    .ty-body {
+      padding: 32px
+    }
+
+    .important {
+      background: #fffbeb;
+      border: 2px dashed #fbbf24;
+      border-radius: 18px;
+      padding: 22px;
+      margin-bottom: 24px
+    }
+
+    .important b {
+      font-family: 'Poppins';
+      font-size: 1.1rem
+    }
+
+    .important p {
+      color: var(--muted);
+      margin: 6px 0 18px
+    }
+
+    .btn-wa {
+      background: #16a34a;
+      color: #fff;
+      box-shadow: 0 10px 24px rgba(22, 163, 74, .4);
+      width: 100%;
+      font-size: 1.05rem;
+      padding: 16px 24px
+    }
+
+    .btn-wa:hover {
+      background: #15803d
+    }
+
+    .ty-note {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 14px;
+      padding: 12px 16px;
+      color: #14532d;
+      font-size: .9rem;
+      margin-bottom: 18px;
+      text-align: left
+    }
+
+    .ty-note p+p {
+      margin-top: 4px
+    }
+
+    .btn-wa svg {
+      width: 24px;
+      height: 24px
+    }
+
+    .details {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+      text-align: left;
+      margin-bottom: 22px
+    }
+
+    .details .info b {
+      font-size: .92rem
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: .92rem
+    }
+
+    .muted a {
+      color: var(--g700);
+      font-weight: 600
+    }
+
+    .state {
+      display: none
+    }
+
+    .state.show {
+      display: block
+    }
+
+    @media(max-width:560px) {
+      .details {
+        grid-template-columns: 1fr
+      }
+
+      .ty-body {
+        padding: 22px
+      }
+    }
+  </style>
 </head>
+
 <body>
-<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
-  <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="3"/><path d="M16 2v4M8 2v4M3 10h18"/></symbol>
-  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
-  <symbol id="i-video" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="6" width="14" height="12" rx="2"/><path d="M16 10l6-4v12l-6-4z"/></symbol>
-  <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-7 8-7s8 3 8 7"/></symbol>
-  <symbol id="i-wa" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 001.8-1.2 2.2 2.2 0 00.1-1.2c0-.1-.2-.2-.5-.3z"/></symbol>
-  <symbol id="logo" viewBox="0 0 40 40"><circle cx="20" cy="20" r="19" fill="#047857"/><g fill="none" stroke="#fde68a" stroke-width="1.6"><circle cx="20" cy="20" r="11"/><path d="M20 5v6M20 29v6M5 20h6M29 20h6M9.4 9.4l4.2 4.2M26.4 26.4l4.2 4.2M30.6 9.4l-4.2 4.2M13.6 26.4l-4.2 4.2"/></g><circle cx="20" cy="20" r="5" fill="#fde68a"/></symbol>
-</defs></svg>
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-cal" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <rect x="3" y="4" width="18" height="18" rx="3" />
+        <path d="M16 2v4M8 2v4M3 10h18" />
+      </symbol>
+      <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round">
+        <circle cx="12" cy="12" r="9" />
+        <path d="M12 7v5l3 2" />
+      </symbol>
+      <symbol id="i-video" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="2" y="6" width="14" height="12" rx="2" />
+        <path d="M16 10l6-4v12l-6-4z" />
+      </symbol>
+      <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <circle cx="12" cy="8" r="4" />
+        <path d="M4 21c0-4 4-7 8-7s8 3 8 7" />
+      </symbol>
+      <symbol id="i-wa" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M12 2a10 10 0 00-8.6 15.1L2 22l5-1.3A10 10 0 1012 2zm0 18.2a8.2 8.2 0 01-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1112 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 01-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 00-.7.3 3 3 0 00-.9 2.2 5.2 5.2 0 001.1 2.7 11.8 11.8 0 004.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 001.8-1.2 2.2 2.2 0 00.1-1.2c0-.1-.2-.2-.5-.3z" />
+      </symbol>
+      <symbol id="logo" viewBox="0 0 40 40">
+        <circle cx="20" cy="20" r="19" fill="#047857" />
+        <g fill="none" stroke="#fde68a" stroke-width="1.6">
+          <circle cx="20" cy="20" r="11" />
+          <path
+            d="M20 5v6M20 29v6M5 20h6M29 20h6M9.4 9.4l4.2 4.2M26.4 26.4l4.2 4.2M30.6 9.4l-4.2 4.2M13.6 26.4l-4.2 4.2" />
+        </g>
+        <circle cx="20" cy="20" r="5" fill="#fde68a" />
+      </symbol>
+    </defs>
+  </svg>
 
-<header class="topbar"><div class="container" style="justify-content:center">
-  <a href="index.html" class="logo"><img src="assets/logo.png" alt="HAARIVEDON logo" width="40" height="40"><div>HAARIVEDON<small>VEDIC ASTROLOGY &amp; VASTU</small></div></a>
-</div></header>
-
-<main class="ty">
-  <!-- SUCCESS -->
-  <div class="ty-card state" id="ok">
-    <div class="ty-head">
-      <div class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg></div>
-      <h1>Payment Successful! Your Seat is Confirmed</h1>
-      <p>Welcome to the Navratri Astrology Masterclass with Neelam Niranjan</p>
+  <header class="topbar">
+    <div class="container" style="justify-content:center">
+      <a href="index.html" class="logo"><img src="assets/logo.png" alt="HAARIVEDON logo" width="40" height="40">
+        <div>HAARIVEDON<small>VEDIC ASTROLOGY &amp; VASTU</small></div>
+      </a>
     </div>
-    <div class="ty-body">
-      <div class="important">
-        <b>Final Step: Join the WhatsApp Community</b>
-        <p>The Zoom link, your 2 bonuses and all reminders will be shared ONLY in this private community.</p>
-        <a id="wa-btn" class="btn btn-wa" href="#" target="_blank" rel="noopener"><svg><use href="#i-wa"/></svg>Join WhatsApp Community</a>
+  </header>
+
+  <main class="ty">
+    <!-- SUCCESS -->
+    <div class="ty-card state" id="ok">
+      <div class="ty-head">
+        <div class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 12l5 5 9-10" />
+          </svg></div>
+        <h1>Payment Successful! Your Seat is Confirmed</h1>
+        <p>Welcome to the Navratri Astrology Masterclass with Neelam Ajay singh</p>
       </div>
-      <div class="ty-note"><p>You'll receive the webinar joining details on your registered email/WhatsApp.</p><p>Seats are limited. Payment confirms your registration. Fees are non-refundable once paid.</p></div>
-      <div class="details">
-        <div class="info"><div class="ic"><svg><use href="#i-cal"/></svg></div><div><small>Date</small><b>10th October 2026</b></div></div>
-        <div class="info"><div class="ic"><svg><use href="#i-clock"/></svg></div><div><small>Time</small><b>6:00 PM IST</b></div></div>
-        <div class="info"><div class="ic"><svg><use href="#i-video"/></svg></div><div><small>Platform</small><b>Live on Zoom</b></div></div>
-        <div class="info"><div class="ic"><svg><use href="#i-user"/></svg></div><div><small>Mentor</small><b>Neelam Niranjan</b></div></div>
+      <div class="ty-body">
+        <div class="important">
+          <b>Final Step: Join the WhatsApp Community</b>
+          <p>The Zoom link, your 2 bonuses and all reminders will be shared ONLY in this private community.</p>
+          <a id="wa-btn" class="btn btn-wa" href="#" target="_blank" rel="noopener"><svg>
+              <use href="#i-wa" />
+            </svg>Join WhatsApp Community</a>
+        </div>
+        <div class="ty-note">
+          <p>You'll receive the webinar joining details on your registered email/WhatsApp.</p>
+          <p>Seats are limited. Payment confirms your registration. Fees are non-refundable once paid.</p>
+        </div>
+        <div class="details">
+          <div class="info">
+            <div class="ic"><svg>
+                <use href="#i-cal" />
+              </svg></div>
+            <div><small>Date</small><b>10th October 2026</b></div>
+          </div>
+          <div class="info">
+            <div class="ic"><svg>
+                <use href="#i-clock" />
+              </svg></div>
+            <div><small>Time</small><b>6:00 PM IST</b></div>
+          </div>
+          <div class="info">
+            <div class="ic"><svg>
+                <use href="#i-video" />
+              </svg></div>
+            <div><small>Platform</small><b>Live on Zoom</b></div>
+          </div>
+          <div class="info">
+            <div class="ic"><svg>
+                <use href="#i-user" />
+              </svg></div>
+            <div><small>Mentor</small><b>Neelam Ajay singh</b></div>
+          </div>
+        </div>
+        <a id="gcal" class="btn btn-green" style="width:100%;margin-bottom:18px" target="_blank" rel="noopener">Join
+          WhatsApp Community</a>
+        <p class="muted" id="pid"></p>
+        <p class="muted support"></p>
       </div>
-      <a id="gcal" class="btn btn-green" style="width:100%;margin-bottom:18px" target="_blank" rel="noopener">Add to Google Calendar</a>
-      <p class="muted" id="pid"></p>
-      <p class="muted support"></p>
     </div>
-  </div>
 
-  <!-- NOT CONFIRMED -->
-  <div class="ty-card state" id="pending">
-    <div class="ty-head" style="background:linear-gradient(135deg,#b45309,#d97706)">
-      <div class="tick" style="color:#d97706"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"><path d="M12 7v6M12 17h.01"/></svg></div>
-      <h1>We couldn't confirm your payment</h1>
-      <p>If the amount was deducted, don't worry &mdash; contact support with your payment details.</p>
+    <!-- NOT CONFIRMED -->
+    <div class="ty-card state" id="pending">
+      <div class="ty-head" style="background:linear-gradient(135deg,#b45309,#d97706)">
+        <div class="tick" style="color:#d97706"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            stroke-width="3" stroke-linecap="round">
+            <path d="M12 7v6M12 17h.01" />
+          </svg></div>
+        <h1>We couldn't confirm your payment</h1>
+        <p>If the amount was deducted, don't worry &mdash; contact support with your payment details.</p>
+      </div>
+      <div class="ty-body">
+        <a href="index.html#register" class="btn btn-green" style="width:100%;margin-bottom:18px">Back to
+          Registration</a>
+        <p class="muted support"></p>
+      </div>
     </div>
-    <div class="ty-body">
-      <a href="index.html#register" class="btn btn-green" style="width:100%;margin-bottom:18px">Back to Registration</a>
-      <p class="muted support"></p>
-    </div>
-  </div>
-</main>
+  </main>
 
-<script>
-(function () {
-  var C = window.HAARIVEDON_CONFIG || {};
-  var q = new URLSearchParams(location.search);
-  var pid = q.get("razorpay_payment_id") || q.get("payment_id") || q.get("txnid") || q.get("order_id");
-  var status = (q.get("razorpay_payment_link_status") || q.get("payment_status") || q.get("status") || "").toLowerCase();
-  var failed = /fail|cancel|declin|pending/.test(status);
-  var ok = !failed && (!C.requirePaymentConfirmation || !!pid);
+  <script>
+    (function () {
+      var C = window.HAARIVEDON_CONFIG || {};
+      var q = new URLSearchParams(location.search);
+      var pid = q.get("razorpay_payment_id") || q.get("payment_id") || q.get("txnid") || q.get("order_id");
+      var status = (q.get("razorpay_payment_link_status") || q.get("payment_status") || q.get("status") || "").toLowerCase();
+      var failed = /fail|cancel|declin|pending/.test(status);
+      var ok = !failed && (!C.requirePaymentConfirmation || !!pid);
 
-  document.getElementById(ok ? "ok" : "pending").classList.add("show");
+      document.getElementById(ok ? "ok" : "pending").classList.add("show");
 
-  var wa = document.getElementById("wa-btn");
-  if (C.whatsappCommunityLink) wa.href = C.whatsappCommunityLink;
-  else { wa.addEventListener("click", function (e) { e.preventDefault(); alert("WhatsApp community link not set yet. Add it in config.js (whatsappCommunityLink)."); }); }
+      var wa = document.getElementById("wa-btn");
+      if (C.whatsappCommunityLink) wa.href = C.whatsappCommunityLink;
+      else { wa.addEventListener("click", function (e) { e.preventDefault(); alert("WhatsApp community link not set yet. Add it in config.js (whatsappCommunityLink)."); }); }
 
-  if (pid) document.getElementById("pid").textContent = "Payment ID: " + pid + " (save this for reference)";
+      if (pid) document.getElementById("pid").textContent = "Payment ID: " + pid + " (save this for reference)";
 
-  var fmt = function (s) { return new Date(s).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, ""); };
-  var gcal = "https://calendar.google.com/calendar/render?action=TEMPLATE" +
-    "&text=" + encodeURIComponent("Navratri Astrology Masterclass – Neelam Niranjan (HAARIVEDON)") +
-    "&dates=" + fmt(C.webinarStart || "2026-10-10T18:00:00+05:30") + "/" + fmt(C.webinarEnd || "2026-10-10T20:00:00+05:30") +
-    "&details=" + encodeURIComponent("Live Zoom masterclass. Zoom link will be shared in the HAARIVEDON WhatsApp community." + (C.whatsappCommunityLink ? "\n" + C.whatsappCommunityLink : ""));
-  document.getElementById("gcal").href = gcal;
+      var fmt = function (s) { return new Date(s).toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, ""); };
+      var gcal = "https://chat.whatsapp.com/DV3N9a458ULA4BeTHdxd5z" +
+        "&text=" + encodeURIComponent("Navratri Astrology Masterclass – Neelam Ajay singh (HAARIVEDON)") +
+        "&dates=" + fmt(C.webinarStart || "2026-10-10T18:00:00+05:30") + "/" + fmt(C.webinarEnd || "2026-10-10T20:00:00+05:30") +
+        "&details=" + encodeURIComponent("Live Zoom masterclass. Zoom link will be shared in the HAARIVEDON WhatsApp community." + (C.whatsappCommunityLink ? "\n" + C.whatsappCommunityLink : ""));
+      document.getElementById("gcal").href = gcal;
 
-  var sup = [];
-  if (C.supportWhatsapp) sup.push('WhatsApp: <a href="https://wa.me/' + C.supportWhatsapp + '" target="_blank" rel="noopener">+' + C.supportWhatsapp + '</a>');
-  if (C.supportEmail) sup.push('Email: <a href="mailto:' + C.supportEmail + '">' + C.supportEmail + '</a>');
-  document.querySelectorAll(".support").forEach(function (el) { el.innerHTML = sup.length ? "Need help? " + sup.join(" &bull; ") : ""; });
-})();
-</script>
+      var sup = [];
+      if (C.supportWhatsapp) sup.push('WhatsApp: <a href="https://wa.me/' + C.supportWhatsapp + '" target="_blank" rel="noopener">+' + C.supportWhatsapp + '</a>');
+      if (C.supportEmail) sup.push('Email: <a href="mailto:' + C.supportEmail + '">' + C.supportEmail + '</a>');
+      document.querySelectorAll(".support").forEach(function (el) { el.innerHTML = sup.length ? "Need help? " + sup.join(" &bull; ") : ""; });
+    })();
+  </script>
 </body>
+
 </html>
