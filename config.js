@@ -4,7 +4,7 @@
 window.HAARIVEDON_CONFIG = {
   // 1) Razorpay Checkout (preferred). Put ONLY the public Key ID here (starts with rzp_live_ / rzp_test_).
   //    NEVER put the Key Secret in this file - website files are public.
-  razorpayKeyId: "rzp_test_TkiNlOSbGtGKTp",
+  razorpayKeyId: "rzp_live_Tkdzmr3lmmsdWc",
   businessName: "HAARIVEDON",
   logo: "assets/logo.png",
 
