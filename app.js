@@ -142,12 +142,14 @@
     }
 
     var emailVal = (inputEmail ? inputEmail.value : "").trim().toLowerCase();
-    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
-    if (!emailRegex.test(emailVal)) {
-      if (wrapEmail) wrapEmail.classList.add("has-error");
-      if (errEmail) { errEmail.textContent = "Please enter a valid email address (e.g. name@example.com)"; errEmail.classList.add("show"); }
-      isValid = false;
-      if (!firstInvalid) firstInvalid = inputEmail;
+    if (emailVal.length > 0) {
+      var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+      if (!emailRegex.test(emailVal)) {
+        if (wrapEmail) wrapEmail.classList.add("has-error");
+        if (errEmail) { errEmail.textContent = "Please enter a valid email address or leave it blank"; errEmail.classList.add("show"); }
+        isValid = false;
+        if (!firstInvalid) firstInvalid = inputEmail;
+      }
     }
 
     if (firstInvalid) {
@@ -165,7 +167,7 @@
       var leads = JSON.parse(localStorage.getItem("haarivedon_leads") || "[]");
       var existingIndex = -1;
       for (var i = 0; i < leads.length; i++) {
-        if (leads[i].phone === lead.phone && leads[i].email === lead.email) {
+        if (leads[i].phone === lead.phone) {
           existingIndex = i;
           break;
         }
@@ -321,7 +323,7 @@
       description: "Navratri Astrology Masterclass – 10 Oct 2026, 6 PM IST",
       prefill: {
         name: lead.name,
-        email: lead.email,
+        email: lead.email || undefined,
         contact: lead.phone
       },
       notes: {
@@ -329,7 +331,7 @@
         mentor: "Neelam Ajay singh",
         customer_name: lead.name,
         customer_phone: lead.phone,
-        customer_email: lead.email
+        customer_email: lead.email || "Not provided"
       },
       theme: { color: "#047857" },
       modal: {
@@ -420,7 +422,7 @@
         '"' + dateStr.replace(/"/g, '""') + '"',
         '"' + (l.name || "").replace(/"/g, '""') + '"',
         l.phone ? '="' + l.phone + '"' : '""', // Formatted for Excel to preserve 10 digits
-        '"' + (l.email || "").replace(/"/g, '""') + '"',
+        '"' + (l.email || "-").replace(/"/g, '""') + '"',
         '"' + (l.amount || "199") + '"',
         '"' + (l.status || "Initiated") + '"',
         '"' + (l.payment_id || "-") + '"'

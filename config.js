@@ -6,7 +6,7 @@ window.HAARIVEDON_CONFIG = {
   //    NEVER put the Key Secret in this file - website files are public.
   razorpayKeyId: "rzp_live_Tkdzmr3lmmsdWc",
   businessName: "HAARIVEDON",
-  logo: "assets/logo.png",
+  logo: "assets/logo1.png",
 
   // 1b) Fallback only (used if razorpayKeyId is empty): a hosted payment link (Razorpay Payment Link / Payment Page, Instamojo, Cashfree, PayU...)
   //    In the gateway dashboard set the "redirect after successful payment" URL to:
